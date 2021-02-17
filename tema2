@@ -1,0 +1,12 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string b = Console.ReadLine();
+		int c = Convert.ToInt32(b,2);
+		Console.WriteLine(c);
+		Console.WriteLine(Convert.ToString(c,2));
+	}
+}
